@@ -1,11 +1,19 @@
-
+import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello World");
-		System.out.println("Hello World");
-		System.out.println("Hello World");
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("What is your name? ");
+		String name = scan.nextLine();
+		
+		System.out.print("What is your name? ");
+		int age = scan.nextInt();
+		scan.nextLine();
+		
+		System.out.println("Your name is " + name);
+		
+		scan.close();
 	}
 }
 	
