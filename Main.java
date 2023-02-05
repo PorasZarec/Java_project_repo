@@ -42,6 +42,35 @@ public class Main {
 		double result = add(x,y);
 		
 		System.out.println(result);
+		
+		String myString = "Bro";
+		int myInt = 18;
+		boolean myBoolean = true;
+		char myChar = '@';
+		double myDouble = 1000;
+		float myFloat = 300;
+		
+//		System.out.printf("My string is %s\n",myString);
+//		System.out.printf("My integer is %d\n", myInt);
+//		System.out.printf("My boolean is %b\n", myBoolean);
+//		System.out.printf("My character is %c\n", myChar);
+//		System.out.printf("My float is %f", myFloat);
+//		System.out.printf("My double is %f\n", myDouble);
+		
+//		[width]
+//		System.out.printf("Hello %10s", myString);
+		
+//		[precision]
+//		System.out.printf("You have this much money %.2f",myDouble);
+		
+//		[flags]
+//		- : lefi-jusify
+//		+ : output a numeric sign for a value
+//		0 : numeric values are zero padded
+//		, : comman grouping seperator if number > 1000
+		
+//		System.out.printf("You have this much money %f");
+
 	}
 	
 	static void hello() {
