@@ -70,6 +70,16 @@ public class Main {
 //		, : comman grouping seperator if number > 1000
 		
 //		System.out.printf("You have this much money %f");
+		
+		Car myCar = new Car();
+		
+		System.out.println(myCar.make);
+		System.out.println(myCar.model);
+		System.out.println(myCar.color);
+		
+		myCar.drive();
+		myCar.brake();
+		
 
 	}
 	
