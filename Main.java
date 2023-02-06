@@ -1,7 +1,7 @@
 //import java.util.Scanner;
 //import java.util.Random;
 //import java.util.ArrayList;
-import javax.swing.JOptionPane;
+// import javax.swing.JOptionPane;
 
 public class Main {
 
@@ -26,15 +26,15 @@ public class Main {
 		 * String result = name.toLowerCase(); 
 		 * String result = name.trim(); cls white space
 		 * String result = name.replace('o','a'); Bra
-		 * */
-//		String name = JOptionPane.showInputDialog("Enter your name");
-//		JOptionPane.showMessageDialog(null, "Hellow " + name);
-//	
-//		int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
-//		JOptionPane.showMessageDialog(null, "You are " + age + " Years old");
-//				
-//		double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
-//		JOptionPane.showMessageDialog(null, "You are " + height + "cm tall");
+		 * 
+		String name = JOptionPane.showInputDialog("Enter your name");
+		JOptionPane.showMessageDialog(null, "Hellow " + name);
+	
+		int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+		JOptionPane.showMessageDialog(null, "You are " + age + " Years old");
+				
+		double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+		JOptionPane.showMessageDialog(null, "You are " + height + "cm tall");
 		
 		hello();
 		int x = 2,y = 3;
@@ -50,26 +50,26 @@ public class Main {
 		double myDouble = 1000;
 		float myFloat = 300;
 		
-//		System.out.printf("My string is %s\n",myString);
-//		System.out.printf("My integer is %d\n", myInt);
-//		System.out.printf("My boolean is %b\n", myBoolean);
-//		System.out.printf("My character is %c\n", myChar);
-//		System.out.printf("My float is %f", myFloat);
-//		System.out.printf("My double is %f\n", myDouble);
+		System.out.printf("My string is %s\n",myString);
+		System.out.printf("My integer is %d\n", myInt);
+		System.out.printf("My boolean is %b\n", myBoolean);
+		System.out.printf("My character is %c\n", myChar);
+		System.out.printf("My float is %f", myFloat);
+		System.out.printf("My double is %f\n", myDouble);
 		
-//		[width]
-//		System.out.printf("Hello %10s", myString);
+		[width]
+		System.out.printf("Hello %10s", myString);
 		
-//		[precision]
-//		System.out.printf("You have this much money %.2f",myDouble);
+		[precision]
+		System.out.printf("You have this much money %.2f",myDouble);
 		
-//		[flags]
-//		- : lefi-jusify
-//		+ : output a numeric sign for a value
-//		0 : numeric values are zero padded
-//		, : comman grouping seperator if number > 1000
+		[flags]
+		- : lefi-jusify
+		+ : output a numeric sign for a value
+		0 : numeric values are zero padded
+		, : comman grouping seperator if number > 1000
 		
-//		System.out.printf("You have this much money %f");
+		System.out.printf("You have this much money %f");
 		
 		Car myCar = new Car();
 		
@@ -93,9 +93,14 @@ public class Main {
 		
 		return result;
 	}
-	
-	
-	
-	
-	
+  */
+
+    Human human1 = new Human("Rick",65,70);
+    Human human2 = new Human("Morty",16,50);
+    
+    human1.drink();
+    human2.eat();
+    
+    
+  }
 }
