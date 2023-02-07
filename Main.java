@@ -1,7 +1,12 @@
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+
 //import java.util.Scanner;
 //import java.util.Random;
 //import java.util.ArrayList;
 // import javax.swing.JOptionPane;
+// import javax.swing.ImageIcon;
+// import javax.swing.Jframe;
 
 public class Main {
 
@@ -95,12 +100,32 @@ public class Main {
 	}
   */
 
-    Human human1 = new Human("Rick",65,70);
-    Human human2 = new Human("Morty",16,50);
+    // Human human1 = new Human("Rick",65,70);
+    // Human human2 = new Human("Morty",16,50);
     
-    human1.drink();
-    human2.eat();
+    // human1.drink();
+    // human2.eat();
+    /*
+    JFrame frame = new JFrame();//creates a frame
     
+    frame.setTitle( "JFrame title goes here"); //sets title of frame
+    
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //exit out of application
+   
+    frame.setResizable(false); //prevent frame from being resized
+    
+    frame.setSize(420, 420); // sets the x-dimension, and y-dimension of frame
+    
+    frame.setVisible( true); //make frame visible
+
+    ImageIcon image = new ImageIcon("LOGO.PNG"); // create an ImageIcon
+    frame.setIconImage(image.getImage()); // change icon of frame
+
+    frame.getContentPane().setBackground(new Color(0,0,0)); // Change color of background
+    
+    */ 
+    
+    myFrame myFrame = new myFrame();
     
   }
 }
